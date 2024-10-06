@@ -79,6 +79,8 @@
     "stacktrace": "cpp",
     "regex": "cpp",
     "valarray": "cpp",
-    "*.tcc": "cpp"
+    "*.tcc": "cpp",
+    "bitset": "cpp",
+    "random": "cpp"
   }
 }

@@ -8,4 +8,5 @@ int main()
   cout << car[0]<< car[1] << car[2];
   
     return 0;
+    
 }   

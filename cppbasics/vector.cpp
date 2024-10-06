@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {  
    vector<int> num = { 1,2,3,4,50};
-  vector<int>::iterator iter1;
+   vector<int>::iterator iter1;
 
 // num.erase(num.begin()); 
  num.insert(num.begin() ,num.begin(),num.end());

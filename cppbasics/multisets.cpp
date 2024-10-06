@@ -9,13 +9,15 @@ int main()
  multiset<int>multiset1 ;
  multiset1.insert(1);
  multiset1.insert(1);
- multiset1.insert(1);
  multiset1.insert(3);
+ multiset1.insert(3);
+ multiset1.insert(3);
+ multiset1.insert(1);
  multiset1.insert(5);
  multiset1.insert(35);
 //  count the element 
- int cn = multiset1.count(1);
- cout << cn ;
+ int cn = multiset1.count(3);
+ cout << cn << " count hai yeh ";
 //  multiset1.erase(1);
 // will erase only single element .
   auto it = multiset1.find(1);

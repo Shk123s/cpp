@@ -28,7 +28,7 @@ map<int,int>mapp ;
 
  for (auto it : mapp)
  {
-   cout << it.first  << " " << it.second  <;
+   cout << it.first  << " " << it.second  ;
  }
  
   return 0;
